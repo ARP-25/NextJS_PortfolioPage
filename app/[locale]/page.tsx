@@ -9,17 +9,17 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import {useTranslations} from 'next-intl';
 import Avatar from "@/components/Avatar";
-
-
 import { LanguageDropdownMenu } from "@/components/ui/DropdownMenuRadioGroupDemo";
+
 export default function Home() {
+    // 
+    // Destructuring JSON-Objekt into Array of Objects
     const t = useTranslations("navItems");
     const array = ["1", "2", "3","4"];
     const navItems = array.map(key => ({
         name: t(`${key}.name`),
         link: t(`${key}.link`),
     }));
-    console.log(navItems);
 
     return (
         <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">

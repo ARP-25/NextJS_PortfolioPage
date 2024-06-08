@@ -14,14 +14,14 @@ const Hero = () => {
     const t = useTranslations("Hero");
     
     return (
-        <section id="hero" className="h-[100vh] pt-[5vh]">
+        <section id="hero" className="hero-section">
             <div className="pb-20 pt-32 text-white">
                 {/* Spotlights */}
                 <Spotlight
                     className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
                     fill="white"
                 />
-                <Spotlight className="top-10 left-full h-[80vh] ww-[50vw]" fill="#7dd3fc" />
+                <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="#7dd3fc" />
                 <Spotlight className="top-28 left-[55vw] h-[80vh] w-[50vw]" fill="#c4b5fd" />
             </div>
 
@@ -37,14 +37,14 @@ const Hero = () => {
                 {/* Content */}
                 <div className="flex justify-center relative  z-10">
                     <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                        <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 mb-3">
+                        <h2 className="uppercase tracking-widest text-[10px] sm:text-xs text-center text-blue-100 max-w-80 mb-3">
                             {t("hero1")}
                         </h2>
                         <TextGenerateEffect
                             words={t("hero2")}
-                            className="text-center text-[40px] md:text-5xl xl:text-6xl mb-6"
+                            className="text-center text-lg sm:text-[40px] md:text-5xl xl:text-6xl mb-6"
                         />
-                        <p className="text-center md:tracking-wider text-sm md:text-lg xl:text-2xl mb-10">
+                        <p className="text-center md:tracking-wider text-[12px] md:text-lg xl:text-2xl mb-10">
                             {t("hero3")}
                         </p>
                         <a href="#about">

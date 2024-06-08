@@ -10,3 +10,12 @@
   line-height: 2.5rem; /* entspricht der line-height für text-4xl in Tailwind */
   font-weight: 700; /* entspricht font-bold */
 }
+.hero-section {
+  min-height: 100vh; /* Ensure it takes at least 100% of the viewport height */
+  height: -webkit-fill-available; /* Support for some mobile browsers */
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
