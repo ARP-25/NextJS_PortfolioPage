@@ -49,28 +49,29 @@ const RecentProjects = () => {
                         >
                             <a href={item.link} rel="noopener" target="_blank">
                             <PinContainer title={item.link} href={item.link}>
-                            
-                                <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] lg:h-[30vh] mb-10">
+                                {/* Image */}
+                                <div className="relative flex items-center justify-center w-[260px] sm:w-[570px] overflow-hidden h-[20vh] sm:h-[40vh] mb-5 sm:mb-10">
                                     <div
-                                        className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                                        className="relative w-full h-full overflow-hidden rounded-2xl"
                                         style={{ backgroundColor: "#13162D" }}
                                     >
-                                        <img src="/bg.png" alt="bgimg"  />
+                                        <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
                                     </div>
                                     <img
                                         src={item.img}
                                         alt={item.title}
                                         className="z-10 absolute bottom-0 w-[80%] transform rotate-6 rounded-xl"
-                                        
                                     />
                                 </div>
 
-                                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                                {/* Title */}
+                                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 w-[260px] sm:w-[570px]">
                                     {item.title}
                                 </h1>
 
+                                {/* Description */}
                                 <p
-                                    className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                                    className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 w-[260px] sm:w-[570px]"
                                     style={{
                                         color: "#BEC1DD",
                                         margin: "1vh 0",
@@ -79,12 +80,13 @@ const RecentProjects = () => {
                                     {item.description}
                                 </p>
 
-                                <div className="flex items-center justify-between mt-7 mb-3">
-                                    <div className="flex items-center">
-                                        {item.iconLists.map((icon:string, index:number) => (
+                                {/* Icon List */}
+                                <div className="flex flex-col sm:flex-row items-center justify-between mt-7 mb-3 w-[260px] sm:w-[570px]">
+                                    <div className="ps-[2.8rem] flex items-center justify-center">
+                                        {item.iconLists.map((icon: string, index: number) => (
                                             <div
                                                 key={index}
-                                                className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                                                className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-7 h-7 flex justify-center items-center"
                                                 style={{
                                                     transform: `translateX(-${5 * index + 2}px)`,
                                                 }}
@@ -94,7 +96,7 @@ const RecentProjects = () => {
                                         ))}
                                     </div>
 
-                                    <div className="flex justify-center items-center">
+                                    <div className="flex mt-3 sm:mt-0 justify-center items-center">
                                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                                             {t("button")}
                                         </p>
@@ -102,6 +104,7 @@ const RecentProjects = () => {
                                     </div>
                                 </div>
                             </PinContainer>
+
                             </a>
                         </div>
                     ))}
