@@ -7,13 +7,20 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { navItems } from "@/data";
+import {useTranslations} from 'next-intl';
 import Avatar from "@/components/Avatar";
 
 
 import { LanguageDropdownMenu } from "@/components/ui/DropdownMenuRadioGroupDemo";
 export default function Home() {
-  
+    const t = useTranslations("navItems");
+    const array = ["1", "2", "3","4"];
+    const navItems = array.map(key => ({
+        name: t(`${key}.name`),
+        link: t(`${key}.link`),
+    }));
+    console.log(navItems);
+
     return (
         <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
             <div className="max-w-7xl w-full">

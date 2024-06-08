@@ -1,4 +1,22 @@
 {
+  "navItems": {
+    "1": {
+      "name": "Über mich",
+      "link": "#about"
+    },
+    "2": {
+      "name": "Projekte",
+      "link": "#projects"
+    },
+    "3": {
+      "name": "Referenzen",
+      "link": "#testimonials"
+    },
+    "4": {
+      "name": "Kontakt",
+      "link": "#contact"
+    }
+  },
   "Hero": {
     "hero1": "Ideen in harmonische Benutzererlebnisse verwandeln",
     "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
