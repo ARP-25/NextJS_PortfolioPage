@@ -1,0 +1,12 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  html {
+    scroll-behavior: smooth;
+}
+.heading {
+  text-align: center; /* entspricht text-center */
+  font-size: 2.25rem; /* entspricht text-4xl, was 36px in Tailwind ist */
+  line-height: 2.5rem; /* entspricht der line-height für text-4xl in Tailwind */
+  font-weight: 700; /* entspricht font-bold */
+}

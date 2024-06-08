@@ -1,0 +1,139 @@
+{
+  "Hero": {
+    "hero1": "Ideen in harmonische Benutzererlebnisse verwandeln",
+    "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
+    "hero3": "Hi, ich bin Angelo. Ich entwickle maßgeschneiderte Websites und Webanwendungen.",
+    "hero4": "Meine Arbeit zeigen"
+  },
+  "Languages": {
+    "lang1": "Englisch",
+    "lang2": "Deutsch"
+  },
+  "Grid": {
+      "items": {
+          "1": {
+              "title": "Ich priorisiere die Zusammenarbeit mit Kunden und fördere offene Kommunikation",
+              "description": ""
+          },
+          "2": {
+              "title": "Ich bin sehr flexibel in der Kommunikation über verschiedene Zeitzonen hinweg",
+              "description": ""
+          },
+          "3": {
+              "title": "Mein Tech-Stack",
+              "description": "Ich versuche ständig, mich zu verbessern"
+          },
+          "4": {
+              "title": "Technik-Enthusiast mit Leidenschaft für Entwicklung",
+              "description": ""
+          },
+          "5": {
+              "title": "Derzeit baue ich eine JS-Animationsbibliothek",
+              "description": "Der Insider-Report"
+          },
+          "6": {
+              "title": "Möchten Sie ein Projekt gemeinsam starten?",
+              "description": "",
+              "copied": "E-Mail Addresse ist kopiert!",
+              "copy": "E-Mail Addresse kopieren"
+          }
+      }
+  },
+  "Projects": {
+      "title": "Eine kleine Selektion kürzlich entwickelter Projekte",
+      "button": "Live Seite besuchen",
+      "items": {
+        "1": {
+          "title": "MarketMinds Analytics - Trading Analyse Plattform",
+          "description": "Vollständige Analyseplattform für Handel mit Aktien, Kryptowährungen und Devisen.",
+          "img": "/MarketMinds.png",
+          "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png",  "stripe-logo.png", "heroku-logo.png", "github-logo.png", "git-logo.png"],
+          "link": "https://marketminds-analytics-31d309061593.herokuapp.com/"
+        },
+        "2": {
+          "title": "VendorVerse - Dynamische Multivendor-E-Commerce-Plattform",
+          "description": "VendorVerse ist ein fortschrittliches Multivendor-E-Commerce-System, das nahtlose Kauf- und Verkaufserlebnisse bietet.",
+          "img": "/p2.svg",
+          "iconLists": ["react-logo.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "github-logo.png", "git-logo.png"],
+          "link": "https://gregarious-piroshki-d98070.netlify.app/"
+        },
+        "3": {
+          "title": "Airbnb - Klon",
+          "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
+          "img": "/airbnb.png",
+          "iconLists": ["/re.svg", "next.svg", "/tail.svg", "/ts.svg", "django-logo.png", "docker-logo.png", "github-logo.png", "git-logo.png"],
+          "link": "https://github.com/adrianhajdin/ai_saas_app"
+        }
+      }
+  },
+  "Testimonials": {
+    "title": "Lobende Worte zufriedener Kunden",
+    "items": {
+      "1": {
+        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "name": "Michael Johnson",
+        "title": "Direktor von AlphaStream Technologies"
+      },
+      "2": {
+        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "name": "Michael Johnson",
+        "title": "Direktor von AlphaStream Technologies"
+      },
+      "3": {
+        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "name": "Michael Johnson",
+        "title": "Direktor von AlphaStream Technologies"
+      },
+      "4": {
+        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "name": "Michael Johnson",
+        "title": "Direktor von AlphaStream Technologies"
+      },
+      "5": {
+        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "name": "Michael Johnson",
+        "title": "Direktor von AlphaStream Technologies"
+      }
+    }
+  },
+  "workExperience": {
+    "title": "Meine Arbeitserfahrung",
+    "items": {
+      "1": {
+        "title": "Full Stack Softwareentwickler",
+        "desc": "Entwickelte und lieferte Softwareprojekte für verschiedene Kunden. Verwendete moderne Technologien wie React.js, Next.js und Django, um skalierbare und effiziente Webanwendungen zu erstellen, die auf die Bedürfnisse der Kunden zugeschnitten sind.",
+        "className": "md:col-span-2",
+        "thumbnail": "/exp1.svg"
+      },
+      "2": {
+        "title": "Full Stack Softwareentwickler Trainee - Code Institute",
+        "desc": "Absolvierte ein beschleunigtes Lernprogramm mit Schwerpunkt auf Full-Stack-Softwareentwicklung. Lieferte von Anfang an mehrere Projekte und sammelte praktische Erfahrungen mit verschiedenen Webtechnologien.",
+        "className": "md:col-span-2",
+        "thumbnail": "/exp2.svg"
+      }
+    }
+  },
+  "approach": {
+    "title": "Mein Ansatz",
+    "cards": {
+      "1": {
+        "title": "Planung & Strategie",
+        "description": "Wir werden zusammenarbeiten, um die Ziele Ihrer Website, Ihre Zielgruppe und die wichtigsten Funktionen zu definieren. Wir werden Dinge wie Seitenstruktur, Navigation und Inhaltsanforderungen besprechen."
+      },
+      "2": {
+        "title": "Entwicklung & Fortschritts-Update",
+        "description": "Sobald wir uns auf den Plan geeinigt haben, lege ich meine Lofi-Playlist auf und tauche in die Programmierung ein. Von den ersten Skizzen bis zum ausgefeilten Code halte ich Sie auf dem Laufenden."
+      },
+      "3": {
+        "title": "Entwicklung & Einführung",
+        "description": "Hier geschieht die Magie! Basierend auf dem genehmigten Design werde ich alles in funktionalen Code umsetzen und Ihre Website von Grund auf neu erstellen."
+      }
+    }
+  },
+  "footer": {
+    "title": "Bereit, Ihre digitale Präsenz auf die nächste Ebene zu bringen?",
+    "description": "Kontaktieren Sie mich noch heute und lassen Sie uns besprechen, wie ich Ihnen helfen kann, Ihre Ziele zu erreichen.",
+    "button": "Lassen Sie uns in Verbindung treten!"
+  }
+}
+  
