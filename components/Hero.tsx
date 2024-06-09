@@ -42,9 +42,9 @@ const Hero = () => {
                         </h2>
                         <TextGenerateEffect
                             words={t("hero2")}
-                            className="text-center text-lg sm:text-[40px] md:text-5xl xl:text-6xl mb-6"
+                            className="text-center text-2xl sm:text-[40px] md:text-5xl xl:text-6xl mb-6"
                         />
-                        <p className="text-center md:tracking-wider text-[12px] md:text-lg xl:text-2xl mb-10">
+                        <p className="text-center md:tracking-wider text-[12px] md:text-lg xl:text-2xl mt-1 mb-10">
                             {t("hero3")}
                         </p>
                         <a href="#about">

@@ -18,9 +18,9 @@
     }
   },
   "Hero": {
-    "hero1": "Ideen in harmonische Benutzererlebnisse verwandeln",
+    "hero1": "Hi, ich bin Angelo, aufstrebender Full-Stack-Entwickler aus Deutschland 📍.",
     "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
-    "hero3": "Hi, ich bin Angelo. Ich entwickle maßgeschneiderte Websites und Webanwendungen.",
+    "hero3": "Ich entwickle maßgeschneiderte Websites und Webanwendungen.",
     "hero4": "Meine Arbeit zeigen"
   },
   "Languages": {
@@ -135,7 +135,7 @@
     }
   },
   "footer": {
-    "title": "Bereit, Ihre digitale Präsenz auf die nächste Ebene zu bringen?",
+    "title": "Bereit, Ihre digitalen Projekte voranzutreiben?",
     "description": "Kontaktieren Sie mich noch heute und lassen Sie uns besprechen, wie ich Ihnen helfen kann, Ihre Ziele zu erreichen.",
     "button": "Lassen Sie uns in Verbindung treten!"
   }

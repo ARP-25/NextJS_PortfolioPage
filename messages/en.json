@@ -19,9 +19,9 @@
     }
   },
   "Hero": {
-    "hero1": "Transforming Ideas into Seamless User Experiences",
+    "hero1": "Hi, Im Angelo, aspiring Full-Stack-Developer based in Germany📍.",
     "hero2": "Custom solutions for entrepreneurs and businesses of all sizes.",
-    "hero3": "Hi, I'm Angelo. I build custom websites and web applications.",
+    "hero3": "I build custom websites and web applications.",
     "hero4": "Show my Work"
   },
   "Languages": {
@@ -135,7 +135,7 @@
     }
   } ,
   "footer": {
-    "title": "Ready to take your digital presence to the next level?",
+    "title": "Ready to take your digital projects to the next level?",
     "description": "Reach out to me today and let's discuss how I can help you achieve your goals.",
     "button": "Let's get in touch!"
   }
