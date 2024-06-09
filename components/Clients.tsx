@@ -10,11 +10,12 @@ import { highlightWords } from "@/lib/highlightWords";
 
 const Clients = () => {
     const t = useTranslations("Testimonials"); 
-    const array = ["1", "2", "3", "4", "5"];
+    const array = ["1", "2"];
     const testimonials = array.map(key => ({
         quote: t(`items.${key}.quote`),
         name: t(`items.${key}.name`),
-        title: t(`items.${key}.title`)
+        image: t(`items.${key}.image`),
+        // title: t(`items.${key}.title`)
     }));
     return (
         <section id="testimonials" className="py-20">

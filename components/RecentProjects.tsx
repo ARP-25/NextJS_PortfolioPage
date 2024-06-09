@@ -82,7 +82,7 @@ const RecentProjects = () => {
 
                                 {/* Icon List */}
                                 <div className="flex flex-col sm:flex-row items-center justify-between mt-7 mb-3 w-[260px] sm:w-[570px]">
-                                    <div className="ps-[2.8rem] flex items-center justify-center">
+                                    <div className="ps-[2.8rem] sm:ps-[0] flex items-center justify-center">
                                         {item.iconLists.map((icon: string, index: number) => (
                                             <div
                                                 key={index}

@@ -47,7 +47,7 @@
                 "description": ""
             },
             "5": {
-                "title": "Currently building a JS Animation library",
+                "title": "Currently Developing and Automating Trading Strategies with Python",
                 "description": "The Inside Scoop"
             },
             "6": {
@@ -80,7 +80,7 @@
         "title": "Airbnb - Clone",
         "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
         "img": "/airbnb.png",
-        "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "docker-logo.png", "/three.svg", "/c.svg"],
+        "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
         "link": "https://github.com/adrianhajdin/ai_saas_app"
       }
     }
@@ -89,26 +89,11 @@
     "title": "Kind words from satisfied Clients",
     "items": {
       "1": {
-        "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        "name": "Michael Johnson",
-        "title": "Director of AlphaStream Technologies"
+        "quote": "Working with Angelo was a fantastic experience from start to finish, and I can fully recommend him. The modern design has already garnered a few compliments from our clients. I'm glad I took the step to professionally enhance our online presence. Thank you, Angelo!",
+        "name": "Sebastian Roslon",
+        "image": "/sebastian.png"
       },
       "2": {
-        "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        "name": "Michael Johnson",
-        "title": "Director of AlphaStream Technologies"
-      },
-      "3": {
-        "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        "name": "Michael Johnson",
-        "title": "Director of AlphaStream Technologies"
-      },
-      "4": {
-        "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        "name": "Michael Johnson",
-        "title": "Director of AlphaStream Technologies"
-      },
-      "5": {
         "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
         "name": "Michael Johnson",
         "title": "Director of AlphaStream Technologies"

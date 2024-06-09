@@ -46,7 +46,7 @@
               "description": ""
           },
           "5": {
-              "title": "Derzeit baue ich eine JS-Animationsbibliothek",
+              "title": "Derzeit entwickle und automatisiere ich Trading-Strategien mit Python",
               "description": "Der Insider-Report"
           },
           "6": {
@@ -79,7 +79,7 @@
           "title": "Airbnb - Klon",
           "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
           "img": "/airbnb.png",
-          "iconLists": ["/re.svg", "next.svg", "/tail.svg", "/ts.svg", "django-logo.png", "docker-logo.png", "github-logo.png", "git-logo.png"],
+          "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
           "link": "https://github.com/adrianhajdin/ai_saas_app"
         }
       }
@@ -88,29 +88,15 @@
     "title": "Lobende Worte zufriedener Kunden",
     "items": {
       "1": {
-        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
-        "name": "Michael Johnson",
-        "title": "Direktor von AlphaStream Technologies"
+        "quote": "Die Zusammenarbeit mit Angelo war von Anfang bis Ende eine fantastische Erfahrung, und ich kann ihn voll und ganz weiterempfehlen. Das moderne Design hat bei unseren Klienten schon für das ein oder andere Kompliment gesorgt. Ich bin froh, den Schritt gemacht zu haben, unsere Online-Präsenz professionell aufwerten zu lassen. Vielen Dank, Angelo!",
+        "name": "Sebastian Roslon",
+        "image": "/sebastian.png"
+        
       },
       "2": {
         "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
-        "name": "Michael Johnson",
-        "title": "Direktor von AlphaStream Technologies"
-      },
-      "3": {
-        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
-        "name": "Michael Johnson",
-        "title": "Direktor von AlphaStream Technologies"
-      },
-      "4": {
-        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
-        "name": "Michael Johnson",
-        "title": "Direktor von AlphaStream Technologies"
-      },
-      "5": {
-        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
-        "name": "Michael Johnson",
-        "title": "Direktor von AlphaStream Technologies"
+        "name": "Zbigniew Filus",
+        "image": "/sebastian.png"
       }
     }
   },
