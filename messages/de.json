@@ -80,7 +80,7 @@
           "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
           "img": "/airbnb.png",
           "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
-          "link": "https://github.com/adrianhajdin/ai_saas_app"
+          "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
         }
       }
   },
@@ -91,12 +91,11 @@
         "quote": "Die Zusammenarbeit mit Angelo war von Anfang bis Ende eine fantastische Erfahrung, und ich kann ihn voll und ganz weiterempfehlen. Das moderne Design hat bei unseren Klienten schon für das ein oder andere Kompliment gesorgt. Ich bin froh, den Schritt gemacht zu haben, unsere Online-Präsenz professionell aufwerten zu lassen. Vielen Dank, Angelo!",
         "name": "Sebastian Roslon",
         "image": "/sebastian.png"
-        
       },
       "2": {
-        "quote": "Die Zusammenarbeit mit Adrian war ein absolutes Vergnügen. Seine Professionalität, Pünktlichkeit und Hingabe, außergewöhnliche Ergebnisse zu liefern, waren während des gesamten Projekts offensichtlich. Adrians Begeisterung für jeden Aspekt der Entwicklung sticht wirklich hervor. Wenn Sie Ihre Website verbessern und Ihre Marke stärken möchten, ist Adrian der ideale Partner.",
+        "quote": "Als Bauunternehmer war es mir wichtig, eine professionelle und ansprechende Webseite zu haben, die meine Dienstleistungen optimal präsentiert. Angelo hat nicht nur meine Erwartungen übertroffen, sondern es hat auch Spaß gemacht mit ihm zusammenzuarbeiten. Seine Fachkenntnisse und sein Engagement haben zu einem top Endergebnis geführt, mit dem ich äußerst zufrieden bin!",
         "name": "Zbigniew Filus",
-        "image": "/sebastian.png"
+        "image": "/Zbigniev.png"
       }
     }
   },

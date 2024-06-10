@@ -26,9 +26,15 @@ export function LanguageDropdownMenu() {
     const storedLanguage = localStorage.getItem("selectedLanguage");
     if (storedLanguage) {
       setLanguage(storedLanguage);
+    } else {
+      // Set default language if no language is stored
+      const defaultLanguage = "en"; // Set your default language here
+      setLanguage(defaultLanguage);
+      localStorage.setItem("selectedLanguage", defaultLanguage);
+      router.push(`/${defaultLanguage}`);
     }
   }, []);
-
+  
   // Watch for changes to the language state and navigate
   React.useEffect(() => {
     if (language) {

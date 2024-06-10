@@ -81,7 +81,7 @@
         "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
         "img": "/airbnb.png",
         "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
-        "link": "https://github.com/adrianhajdin/ai_saas_app"
+        "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
       }
     }
   },
@@ -94,9 +94,9 @@
         "image": "/sebastian.png"
       },
       "2": {
-        "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        "name": "Michael Johnson",
-        "title": "Director of AlphaStream Technologies"
+        "quote": "As a construction contractor, it was important to me to have a professional and appealing website that optimally showcases my services. Angelo not only exceeded my expectations but also made it enjoyable to work with him. His expertise and dedication led to a top-notch end result with which I am extremely satisfied!",
+        "name": "Zbigniev Filus",
+        "image": "/Zbigniev.png"
       }
     }
   },
