@@ -73,8 +73,8 @@
         "title": "VendorVerse - Dynamic Multivendor E-Commerce Platform",
         "description": "VendorVerse is an advanced multivendor e-commerce system designed to provide seamless buying and selling experiences.",
         "img": "/p2.svg",
-        "iconLists": ["react-logo.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "netlify-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://main--vendorverse.netlify.app/"
+        "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png","django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "netlify-logo.png", "github-logo.png", "git-logo.png"],
+        "link": "https://vendorverse.netlify.app/"
       },
       "3": {
         "title": "Airbnb - Clone",
