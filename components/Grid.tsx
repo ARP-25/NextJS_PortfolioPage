@@ -1,14 +1,24 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
 import {useTranslations} from 'next-intl';
+import { motion } from "framer-motion";
+
 const Grid = () => {
     const t = useTranslations("Grid");
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+
+
     return (
         <section id="about" className="pt-[5vh]">
+
             <BentoGrid>
                 {gridItems.map((item) => (
-                    <React.Fragment key={item.id}>
+                    <React.Fragment key={item.id}>                    
                         {item.id !== 6 ? (
                             <BentoGridItem
                                 id={item.id}

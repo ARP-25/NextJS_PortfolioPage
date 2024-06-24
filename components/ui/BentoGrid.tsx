@@ -12,6 +12,8 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../ui/MagicButton";
 
+import useTechstackModal from "@/hooks/useTechstackModal";
+
 export const BentoGrid = ({
     className,
     children,
@@ -37,7 +39,6 @@ export const BentoGridItem = ({
     id,
     title,
     description,
-    //   remove unecessary things here
     img,
     imgClassName,
     titleClassName,
@@ -59,6 +60,17 @@ export const BentoGridItem = ({
 
     const [copied, setCopied] = useState(false);
 
+    const TechstackModal = useTechstackModal();
+
+
+    const handleClick = () => {
+        if (id === 3) {
+            TechstackModal.open();
+        }
+    };
+
+    console.log("TechstackModal", TechstackModal.isOpen)
+
     const defaultOptions = {
         loop: copied,
         autoplay: copied,
@@ -76,18 +88,19 @@ export const BentoGridItem = ({
 
     return (
         <div
-            className={cn(
-                // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
-                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
-                className
-            )}
+        className={`row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 ${
+            id === 3 ? 'cursor-pointer' : ''
+        } ${className}`}
             style={{
                 //   add these two
                 //   you can generate the color from here https://cssgradient.io/
                 background: "rgb(4,7,29)",
                 backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                // boxShadow: id === 3 ? '0 0 8px 0 #CBACF9' : ''
             }}
+            onClick={id === 3 ? handleClick : undefined}
         >
+
             {/* add img divs */}
             <div className={`${id === 6 && "flex justify-center"} h-full`}>
                 <div className="w-full h-full absolute">
@@ -131,6 +144,13 @@ export const BentoGridItem = ({
                     <div className={`font-sans text-lg xl:text-3xl max-w-96 font-bold z-50`}>
                         {title}
                     </div>
+
+                    {id === 3 && (
+                        <div className="font-sans hidden md:block md:max-w-32 md:text-xs xl:text-base text-sm text-[#C1C2D3] z-50">
+                            {"Click for more info!"}
+                        </div>
+                    )}
+                    
 
                     {/* for the github 3d globe */}
                     {id === 2 && <GridGlobe />}
@@ -193,5 +213,6 @@ export const BentoGridItem = ({
                 </div>
             </div>
         </div>
+        
     );
 };

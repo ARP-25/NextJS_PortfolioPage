@@ -1,18 +1,23 @@
+"use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-
+import { FaDownload } from "react-icons/fa";
 import {useTranslations} from 'next-intl';
 import { highlightWords } from "@/lib/highlightWords";
 
   
 
 const Hero = () => {
-
     const t = useTranslations("Hero");
-    
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/Angelo Pucci Resume.pdf"; 
+        link.download = "/Angelo Pucci Resume.pdf"; 
+        link.click();
+    };
     return (
         <section id="hero" className="hero-section">
             <div className="pb-20 pt-32 text-white">
@@ -47,13 +52,22 @@ const Hero = () => {
                         <p className="text-center md:tracking-wider text-[12px] md:text-lg xl:text-2xl mt-1 mb-10">
                             {t("hero3")}
                         </p>
-                        <a href="#about">
-                            <MagicButton
-                                title={t("hero4")}
-                                icon={<FaLocationArrow />}
-                                position="right"
-                            />
-                        </a>
+                        <div className="flex flex-col sm:flex-row gap-4">
+                            <a href="#about">
+                                <MagicButton
+                                    title={t("hero4")}
+                                    icon={<FaLocationArrow />}
+                                    position="right"
+                                />
+                            </a>
+                            <div onClick={handleDownload}>
+                                <MagicButton
+                                    title={t("hero5")}
+                                    icon={<FaDownload />}
+                                    position="right"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

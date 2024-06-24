@@ -22,7 +22,8 @@
     "hero1": "Hi, Im Angelo, aspiring Full-Stack-Developer based in Germany📍.",
     "hero2": "Custom solutions for entrepreneurs and businesses of all sizes.",
     "hero3": "I build custom websites and web applications.",
-    "hero4": "Show my Work"
+    "hero4": "Show my Work",
+    "hero5": "Download CV"
   },
   "Languages": {
     "lang1": "English",
@@ -47,7 +48,7 @@
                 "description": ""
             },
             "5": {
-                "title": "Currently Developing and Automating Trading Strategies with Python",
+                "title": "Currently developing and automating trading strategies with Python",
                 "description": "The Inside Scoop"
             },
             "6": {
@@ -67,21 +68,52 @@
         "description": "A Django-based trading platform offering streamlined subscription management with Stripe integration, direct content delivery via 'Trade Insights,' and essential financial metrics in a user-friendly custom admin panel. ",
         "img": "/MarketMinds.png",
         "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://marketminds-analytics-31d309061593.herokuapp.com/"
+        "link": "https://marketminds-analytics-31d309061593.herokuapp.com/",
+        "github1":"null",
+        "github2":"null",
+        "github3":"Full Source Code",
+        "github1_link": "null",
+        "github2_link": "null",
+        "github3_link": "https://github.com/ARP-25/MarketMinds-Analytics"
       },
       "2": {
         "title": "VendorVerse - Dynamic Multivendor E-Commerce Platform",
         "description": "VendorVerse is an advanced multivendor e-commerce system designed to provide seamless buying and selling experiences.",
-        "img": "/VendorVerse_Screen.png",
+        "img": "/VendorVerse_Screen.jpg",
         "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png","django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "netlify-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://vendorverse.netlify.app/"
+        "link": "https://vendorverse.netlify.app/",
+        "github1":"Frontend",
+        "github2":"Backend",
+        "github3": "null",
+        "github1_link": "https://github.com/ARP-25/VendorVerse_frontend",
+        "github2_link": "https://github.com/ARP-25/VendorVerse_backend",
+        "github3_link": "null"
       },
       "3": {
         "title": "Airbnb - Clone",
         "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
         "img": "/airbnb.png",
         "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
-        "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
+        "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode",
+        "github1":"Frontend",
+        "github2":"Backend",
+        "github3": "null",
+        "github1_link": "https://github.com/ARP-25/Djangobnb_frontend",
+        "github2_link": "https://github.com/ARP-25/Djangobnb_backend",
+        "github3_link": "null"
+      },
+      "4": {
+        "title": "Boutique Ado - E-Commerce Platform",
+        "description": "A fully functional e-commerce platform built with Django, Stripe, and Heroku. Features include user authentication, product management, and a streamlined checkout process.",
+        "img": "/BoutiqueAdo_Screen.jpg",
+        "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
+        "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/",
+        "github1":"null",
+        "github2":"null",
+        "github3":"Full Source Code",
+        "github1_link": "null",
+        "github2_link": "null",
+        "github3_link": "https://github.com/ARP-25/BoutiqueAdo"
       }
     }
   },

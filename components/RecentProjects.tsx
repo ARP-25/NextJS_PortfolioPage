@@ -1,36 +1,41 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
-import { projects } from "@/data";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { useTranslations } from 'next-intl';
 import { PinContainer } from "./ui/Pin";
-import { use } from "react";
-
-import {useTranslations} from 'next-intl';
 
 const RecentProjects = () => {
-
     const t = useTranslations("Projects");
+
     // Abrufen der Projekte-Daten explizit
-    const projectKeys = ["1", "2", "3"];
+    const projectKeys = ["1", "2", "3", "4"];
     const projectsArray = projectKeys.map(key => ({
         id: key,
         title: t(`items.${key}.title`),
         description: t(`items.${key}.description`),
         img: t(`items.${key}.img`),
         iconLists: t.raw(`items.${key}.iconLists`),
-        link: t(`items.${key}.link`)
+        link: t(`items.${key}.link`),
+        github1: t(`items.${key}.github1`),
+        github2: t(`items.${key}.github2`),
+        github3: t(`items.${key}.github3`),
+        github1_link: t(`items.${key}.github1_link`),
+        github2_link: t(`items.${key}.github2_link`),
+        github3_link: t(`items.${key}.github3_link`),
     }));
 
-    const highlightFirstThreeWords = (text:string) => {
+    const highlightFirstThreeWords = (text: string) => {
         const words = text.split(' ');
         const firstThreeWords = words.slice(0, 3).join(' ');
         const remainingWords = words.slice(3).join(' ');
 
         return (
             <>
-            <span>{firstThreeWords}</span>
-            <span className="text-purple"> {remainingWords}</span>
+                <span>{firstThreeWords}</span>
+                <span className="text-purple"> {remainingWords}</span>
             </>
         );
     };
@@ -43,74 +48,130 @@ const RecentProjects = () => {
                 </h1>
                 <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 ">
                     {projectsArray.map((item) => (
-                        <div
-                            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
-                            key={item.id}
-                        >
-                            <a href={item.link} rel="noopener" target="_blank">
-                            <PinContainer title={item.link} href={item.link}>
-                                {/* Image */}
-                                <div className="relative flex items-center justify-center w-[260px] sm:w-[570px] overflow-hidden h-[20vh] sm:h-[40vh] mb-5 sm:mb-10">
-                                    <div
-                                        className="relative w-full h-full overflow-hidden rounded-2xl"
-                                        style={{ backgroundColor: "#13162D" }}
-                                    >
-                                        <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
-                                    </div>
-                                    <img
-                                        src={item.img}
-                                        alt={item.title}
-                                        className="z-10 absolute bottom-0 w-[80%] transform rotate-6 rounded-xl"
-                                    />
-                                </div>
-
-                                {/* Title */}
-                                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 w-[260px] sm:w-[570px]">
-                                    {item.title}
-                                </h1>
-
-                                {/* Description */}
-                                <p
-                                    className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 w-[260px] sm:w-[570px]"
-                                    style={{
-                                        color: "#BEC1DD",
-                                        margin: "1vh 0",
-                                    }}
-                                >
-                                    {item.description}
-                                </p>
-
-                                {/* Icon List */}
-                                <div className="flex flex-col sm:flex-row items-center justify-between mt-7 mb-3 w-[260px] sm:w-[570px]">
-                                    <div className="ps-[2.8rem] sm:ps-[0] flex items-center justify-center">
-                                        {item.iconLists.map((icon: string, index: number) => (
-                                            <div
-                                                key={index}
-                                                className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-7 h-7 flex justify-center items-center"
-                                                style={{
-                                                    transform: `translateX(-${5 * index + 2}px)`,
-                                                }}
-                                            >
-                                                <img src={icon} alt="icon5" className="p-2" />
-                                            </div>
-                                        ))}
-                                    </div>
-
-                                    <div className="flex mt-3 sm:mt-0 justify-center items-center">
-                                        <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                                            {t("button")}
-                                        </p>
-                                        <FaLocationArrow className="ms-3" color="#CBACF9" />
-                                    </div>
-                                </div>
-                            </PinContainer>
-
-                            </a>
-                        </div>
+                        <ProjectItem key={item.id} item={item} t={t} />
                     ))}
                 </div>
             </div>
         </section>
+    );
+};
+
+const ProjectItem = ({ item, t }: { item: any; t: any }) => {
+    const controls = useAnimation();
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.2,
+    });
+
+    useEffect(() => {
+        if (inView) {
+            controls.start("visible");
+        }
+    }, [controls, inView]);
+
+    const githubVariants = {
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0 },
+    };
+
+    return (
+        <div className="flex flex-col items-center" ref={ref}>
+            {/* Pincontainer Container */}
+            <div className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
+                <a href={item.link} rel="noopener" target="_blank">
+                    <PinContainer title={item.link} href={item.link}>
+                        {/* Image */}
+                        <div className="relative flex items-center justify-center w-[260px] sm:w-[570px] overflow-hidden h-[20vh] sm:h-[40vh] mb-5 sm:mb-10">
+                            <div className="relative w-full h-full overflow-hidden rounded-2xl" style={{ backgroundColor: "#13162D" }}>
+                                <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
+                            </div>
+                            <img
+                                src={item.img}
+                                alt={item.title}
+                                className="z-10 absolute bottom-[11.5%] w-[80%] transform rotate-6 rounded-xl"
+                            />
+                        </div>
+
+                        {/* Title */}
+                        <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 w-[260px] sm:w-[570px]">
+                            {item.title}
+                        </h1>
+
+                        {/* Description */}
+                        <p
+                            className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 w-[260px] sm:w-[570px]"
+                            style={{
+                                color: "#BEC1DD",
+                                margin: "1vh 0",
+                            }}
+                        >
+                            {item.description}
+                        </p>
+
+                        {/* Icon List */}
+                        <div className="flex flex-col sm:flex-row items-center justify-between mt-7 mb-3 w-[260px] sm:w-[570px]">
+                            <div className="ps-[2.8rem] sm:ps-[0] flex items-center justify-center">
+                                {item.iconLists.map((icon: string, index: number) => (
+                                    <div
+                                        key={index}
+                                        className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-7 h-7 flex justify-center items-center"
+                                        style={{
+                                            transform: `translateX(-${5 * index + 2}px)`,
+                                        }}
+                                    >
+                                        <img src={icon} alt={`icon-${index}`} className="p-2" />
+                                    </div>
+                                ))}
+                            </div>
+
+                            <div className="flex mt-3 sm:mt-0 justify-center items-center">
+                                <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                                    {t("button")}
+                                </p>
+                                <FaLocationArrow className="ms-3" color="#CBACF9" />
+                            </div>
+                        </div>
+                    </PinContainer>
+                </a>
+            </div>
+
+            {/* Github Links */}
+            <motion.div
+                className="flex"
+                initial="hidden"
+                animate={controls}
+                variants={githubVariants}
+                transition={{ duration: 3 }}
+            >
+                {item.github1 && item.github1 !== "null" &&
+                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
+                    transition={{ type: "spring", stiffness: 300 }}>
+                        <a href={item.github1_link} rel="noopener" target="_blank" className=" flex">
+                            <img src="/githublogo.svg" alt="GitHub Logo" />
+                            <div className="z-50 ml-2 mr-2">{item.github1}</div>
+                        </a>
+                    </motion.div>
+                }
+                {item.github2 && item.github2 !== "null" &&
+                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
+                    transition={{ type: "spring", stiffness: 300 }}>
+                        <a href={item.github2_link} rel="noopener" target="_blank" className=" flex">
+                            <img src="/githublogo.svg" alt="GitHub Logo" />
+                            <div className="z-50 ml-2 mr-2">{item.github2}</div>
+                        </a>
+                    </motion.div>
+                }
+                {item.github3 && item.github3 !== "null" &&
+                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
+                    transition={{ type: "spring", stiffness: 300 }}>
+                        <a href={item.github3_link} rel="noopener" target="_blank" className=" flex">
+                            <img src="/githublogo.svg" alt="GitHub Logo" />
+                            <div className="z-50 ml-2 mr-2">{item.github3}</div>
+                        </a>
+                    </motion.div>
+                }
+            </motion.div>
+        </div>
     );
 };
 

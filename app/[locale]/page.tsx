@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import {useTranslations} from 'next-intl';
 import Avatar from "@/components/Avatar";
 import { LanguageDropdownMenu } from "@/components/ui/DropdownMenuRadioGroupDemo";
+import TechstackModal from "@/components/ui/TechstackModal";
 
 export default function Home() {
     // 
@@ -34,6 +35,7 @@ export default function Home() {
                 <Experience />
                 <Approach />
                 <Footer />
+                <TechstackModal />
             </div>
         </main>
     );

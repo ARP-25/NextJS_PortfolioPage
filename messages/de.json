@@ -21,7 +21,8 @@
     "hero1": "Hi, ich bin Angelo, aufstrebender Full-Stack-Entwickler aus Deutschland 📍.",
     "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
     "hero3": "Ich entwickle maßgeschneiderte Websites und Webanwendungen.",
-    "hero4": "Meine Arbeit zeigen"
+    "hero4": "Meine Arbeit zeigen",
+    "hero5": "CV herunterladen"
   },
   "Languages": {
     "lang1": "Englisch",
@@ -71,7 +72,7 @@
         "2": {
           "title": "VendorVerse - Dynamische Multivendor-E-Commerce-Plattform",
           "description": "VendorVerse ist ein fortschrittliches Multivendor-E-Commerce-System, das nahtlose Kauf- und Verkaufserlebnisse bietet.",
-          "img": "/VendorVerse_Screen.png",
+          "img": "/VendorVerse_Screen.jpg",
           "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png", "django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "github-logo.png", "git-logo.png"],
           "link": "https://vendorverse.netlify.app/"
         },
@@ -81,6 +82,13 @@
           "img": "/airbnb.png",
           "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "python-logo.png","/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
           "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
+        },
+        "4": {
+          "title": "Boutique Ado - E-Commerce Platform",
+          "description": "Ein voll funktionsfähiges E-Commerce-Plattformprojekt mit Django, Stripe und Heroku umfasst die folgenden Features: Benutzerauthentifizierung, Produktverwaltung und einen optimierten Checkout-Prozess. ",
+          "img": "/BoutiqueAdo_Screen.jpg",
+          "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
+          "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/"
         }
       }
   },
