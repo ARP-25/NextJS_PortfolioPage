@@ -73,7 +73,7 @@
           "description": "VendorVerse ist ein fortschrittliches Multivendor-E-Commerce-System, das nahtlose Kauf- und Verkaufserlebnisse bietet.",
           "img": "/p2.svg",
           "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png", "django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "github-logo.png", "git-logo.png"],
-          "link": "https://main--vendorverse.netlify.app/"
+          "link": "https://vendorverse.netlify.app/"
         },
         "3": {
           "title": "Airbnb - Klon",
