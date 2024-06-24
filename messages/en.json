@@ -80,7 +80,7 @@
         "title": "Airbnb - Clone",
         "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
         "img": "/airbnb.png",
-        "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
+        "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
         "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
       }
     }

@@ -79,7 +79,7 @@
           "title": "Airbnb - Klon",
           "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
           "img": "/airbnb.png",
-          "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "python-logo.png","/django-logo.png", "/docker-logo.png","/nginx.png", "/github-logo.png", "/git-logo.png"],
+          "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "python-logo.png","/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
           "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
         }
       }
