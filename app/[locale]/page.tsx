@@ -10,7 +10,6 @@ import { useTranslations } from "next-intl";
 import Avatar from "@/components/Avatar";
 import { LanguageDropdownMenu } from "@/components/ui/DropdownMenuRadioGroupDemo";
 import TechstackModal from "@/components/ui/TechstackModal";
-import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 
 export default function Home() {
     //
@@ -36,7 +35,6 @@ export default function Home() {
                 <Approach />
                 <Footer />
                 <TechstackModal />
-                <BackgroundBoxesDemo />
             </div>
         </main>
     );

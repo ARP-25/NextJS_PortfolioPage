@@ -6,48 +6,45 @@ import MagicButton from "./ui/MagicButton";
 import { highlightWords } from "@/lib/highlightWords";
 import { useTranslations } from "next-intl";
 
+import { Boxes } from "./ui/background-boxes";
+
 const Footer = () => {
+    const t = useTranslations("footer");
 
-  const t = useTranslations("footer");
+    return (
+        <footer className="relative w-full overflow-hidden bg-[#000319] pb-20 pt-20" id="contact">
+            <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-[#000319] [mask-image:radial-gradient(transparent,white)]" />
+            <Boxes />
+            <div className="relative z-20 flex flex-col items-center">
+                <h1 className="text-center text-4xl font-bold lg:max-w-[45vw]">
+                    {highlightWords(t("title"), 1, 3)}
+                </h1>
+                <p className="my-5 text-center text-white-200 md:mt-10">{t("description")}</p>
+                <a href="mailto:angelo.pucci@outlook.de">
+                    <MagicButton title={t("button")} icon={<FaLocationArrow />} position="right" />
+                </a>
+            </div>
+            <div className="relative z-20 mt-16 flex flex-col items-center justify-between md:flex-row">
+                <p className="text-sm font-light md:text-base md:font-normal">
+                    Copyright © 2024 Angelo R. Pucci
+                </p>
 
-  return (
-    <footer className="w-full pb-20 " id="contact">
-
-
-      <div className="flex flex-col items-center">
-        <h1 className="text-center text-4xl font-bold lg:max-w-[45vw]">
-          {highlightWords(t("title"), 1, 3)}
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          {t("description")}
-        </p>
-        <a href="mailto:angelo.pucci@outlook.de">
-          <MagicButton
-            title={t("button")}
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
-      </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Angelo R. Pucci
-        </p>
-
-        <div className="flex items-center md:gap-3 gap-6 pt-5 md:pt-0 ">
-          {socialMedia.map((info) => (
-            <a href={info.link} rel="noreferrer noopener" target="_blank"
-            
-              key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-xl border border-black-300"
-            >
-              <img src={info.img} alt={info.alt} width={20} height={20} />
-            </a>
-          ))}
-        </div>
-      </div>
-    </footer>
-  );
+                <div className="flex items-center gap-6 pt-5 md:gap-3 md:pt-0">
+                    {socialMedia.map(info => (
+                        <a
+                            href={info.link}
+                            rel="noreferrer noopener"
+                            target="_blank"
+                            key={info.id}
+                            className="saturate-180 flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-black-300 bg-black-200 bg-opacity-75 backdrop-blur-lg backdrop-filter"
+                        >
+                            <img src={info.img} alt={info.alt} width={20} height={20} />
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </footer>
+    );
 };
 
 export default Footer;
