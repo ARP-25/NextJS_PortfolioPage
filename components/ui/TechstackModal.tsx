@@ -22,34 +22,35 @@ const TechstackModal = () => {
             title: "Web Development Frameworks",
             items: [
                 { name: "Django", icon: "/django-logo.png" },
-                { name: "Django REST", icon: "/django-logo.png" }, // You may use the same Django logo for Django REST or find a specific one
-                { name: "Flask", icon: "/flask.svg" }, // Placeholder, replace with actual path
+                { name: "Django REST", icon: "/django-logo.png" },
                 { name: "Next.js", icon: "/next.svg" },
+                { name: "Flask", icon: "/flask.svg" },
             ],
         },
         {
             title: "Frontend Technologies",
             items: [
                 { name: "React", icon: "/react-logo.png" },
-                { name: "jQuery", icon: "/jquery.svg" }, // Placeholder, replace with actual path
+                { name: "jQuery", icon: "/jquery.svg" },
+                { name: "Tailwind CSS", icon: "/tail.svg" },
                 { name: "Bootstrap", icon: "/bootstrap-icon.png" },
-                { name: "Tailwind CSS", icon: "/tail.svg" }, // Placeholder, replace with actual path
             ],
         },
         {
             title: "Databases",
             items: [
-                { name: "MySQL", icon: "/mysql.svg" }, // Placeholder, replace with actual path
                 { name: "PostgreSQL", icon: "/postgres.svg" },
+                { name: "MySQL", icon: "/mysql.svg" },
             ],
         },
         {
             title: "Cloud Hosting and Deployment",
             items: [
-                { name: "AWS S3", icon: "/aws-icon.svg" }, // Placeholder, replace with actual path
-                { name: "Heroku", icon: "/heroku-logo.png" },
                 { name: "DigitalOcean", icon: "/digitalocean_logo.png" },
-                { name: "Railway", icon: "/railway-logo.png" }, // Placeholder, replace with actual path
+                { name: "AWS S3", icon: "/aws-icon.svg" },
+                { name: "Heroku", icon: "/heroku-logo.png" },
+                { name: "Railway", icon: "/railway-logo.png" },
+                { name: "Netlify", icon: "/netlify-logo.png" },
             ],
         },
         {
