@@ -1,150 +1,227 @@
 {
-  "navItems": {
-    "1": {
-      "name": "Über mich",
-      "link": "#about"
-    },
-    "2": {
-      "name": "Projekte",
-      "link": "#projects"
-    },
-    "3": {
-      "name": "Referenzen",
-      "link": "#testimonials"
-    },
-    "4": {
-      "name": "Kontakt",
-      "link": "#contact"
-    }
-  },
-  "Hero": {
-    "hero1": "Hi, ich bin Angelo, aufstrebender Full-Stack-Entwickler aus Deutschland 📍.",
-    "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
-    "hero3": "Ich entwickle maßgeschneiderte Websites und Webanwendungen.",
-    "hero4": "Meine Arbeit zeigen",
-    "hero5": "CV herunterladen"
-  },
-  "Languages": {
-    "lang1": "Englisch",
-    "lang2": "Deutsch"
-  },
-  "Grid": {
-      "items": {
-          "1": {
-              "title": "Ich priorisiere die Zusammenarbeit mit Kunden und fördere offene Kommunikation",
-              "description": ""
-          },
-          "2": {
-              "title": "Ich bin sehr flexibel in der Kommunikation über verschiedene Zeitzonen hinweg",
-              "description": ""
-          },
-          "3": {
-              "title": "Mein Tech-Stack",
-              "description": "Ich versuche ständig, mich zu verbessern"
-          },
-          "4": {
-              "title": "Technik-Enthusiast mit Leidenschaft für Entwicklung",
-              "description": ""
-          },
-          "5": {
-              "title": "Derzeit entwickle und automatisiere ich Trading-Strategien mit Python",
-              "description": "Der Insider-Report"
-          },
-          "6": {
-              "title": "Möchten Sie ein Projekt gemeinsam starten?",
-              "description": "",
-              "copied": "E-Mail Addresse ist kopiert!",
-              "copy": "E-Mail Addresse kopieren"
-          }
-      }
-  },
-  "Projects": {
-      "title": "Eine kleine Selektion kürzlich entwickelter Projekte",
-      "button": "Live Seite besuchen",
-      "items": {
+    "navItems": {
         "1": {
-          "title": "MarketMinds Analytics - Trading Analyse Plattform",
-          "description": "Vollständige Analyseplattform für Handel mit Aktien, Kryptowährungen und Devisen.",
-          "img": "/MarketMinds.png",
-          "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png",  "stripe-logo.png", "heroku-logo.png", "github-logo.png", "git-logo.png"],
-          "link": "https://marketminds-analytics-31d309061593.herokuapp.com/"
+            "name": "Über mich",
+            "link": "#about"
         },
         "2": {
-          "title": "VendorVerse - Dynamische Multivendor-E-Commerce-Plattform",
-          "description": "VendorVerse ist ein fortschrittliches Multivendor-E-Commerce-System, das nahtlose Kauf- und Verkaufserlebnisse bietet.",
-          "img": "/VendorVerse_Screen.jpg",
-          "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png", "django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "github-logo.png", "git-logo.png"],
-          "link": "https://vendorverse.netlify.app/"
+            "name": "Projekte",
+            "link": "#projects"
         },
         "3": {
-          "title": "Airbnb - Klon",
-          "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
-          "img": "/airbnb.png",
-          "iconLists": ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "python-logo.png","/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
-          "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode"
+            "name": "Referenzen",
+            "link": "#testimonials"
         },
         "4": {
-          "title": "Boutique Ado - E-Commerce Platform",
-          "description": "Ein voll funktionsfähiges E-Commerce-Plattformprojekt mit Django, Stripe und Heroku umfasst die folgenden Features: Benutzerauthentifizierung, Produktverwaltung und einen optimierten Checkout-Prozess. ",
-          "img": "/BoutiqueAdo_Screen.jpg",
-          "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
-          "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/"
+            "name": "Kontakt",
+            "link": "#contact"
         }
-      }
-  },
-  "Testimonials": {
-    "title": "Lobende Worte zufriedener Kunden",
-    "items": {
-      "1": {
-        "quote": "Die Zusammenarbeit mit Angelo war von Anfang bis Ende eine fantastische Erfahrung, und ich kann ihn voll und ganz weiterempfehlen. Das moderne Design hat bei unseren Klienten schon für das ein oder andere Kompliment gesorgt. Ich bin froh, den Schritt gemacht zu haben, unsere Online-Präsenz professionell aufwerten zu lassen. Vielen Dank, Angelo!",
-        "name": "Sebastian Roslon",
-        "image": "/sebastian.png"
-      },
-      "2": {
-        "quote": "Als Bauunternehmer war es mir wichtig, eine professionelle und ansprechende Webseite zu haben, die meine Dienstleistungen optimal präsentiert. Angelo hat nicht nur meine Erwartungen übertroffen, sondern es hat auch Spaß gemacht mit ihm zusammenzuarbeiten. Seine Fachkenntnisse und sein Engagement haben zu einem top Endergebnis geführt, mit dem ich äußerst zufrieden bin!",
-        "name": "Zbigniew Filus",
-        "image": "/Zbigniev.png"
-      }
+    },
+    "Hero": {
+        "hero1": "Hi, ich bin Angelo, aufstrebender Full-Stack-Entwickler aus Deutschland 📍.",
+        "hero2": "Individuelle Lösungen für Einzelunternehmer und Unternehmen jeder Größe",
+        "hero3": "Ich entwerfe und entwickle maßgeschneiderte Websites und Webanwendungen, die den geschäftlichen Erfolg vorantreiben.",
+        "hero4": "Meine Arbeit zeigen",
+        "hero5": "CV herunterladen"
+    },
+    "Languages": {
+        "lang1": "Englisch",
+        "lang2": "Deutsch"
+    },
+    "Grid": {
+        "items": {
+            "1": {
+                "title": "Ich priorisiere die Zusammenarbeit mit Klienten und fördere offene Kommunikation",
+                "description": ""
+            },
+            "2": {
+                "title": "Ich bin sehr flexibel in der Kommunikation über verschiedene Zeitzonen hinweg",
+                "description": ""
+            },
+            "3": {
+                "title": "Mein Tech-Stack",
+                "description": "Ich versuche ständig, mich zu verbessern"
+            },
+            "4": {
+                "title": "Technik-Enthusiast mit Leidenschaft für Entwicklung",
+                "description": ""
+            },
+            "5": {
+                "title": "Derzeit entwickle und automatisiere ich Trading-Strategien mit Python",
+                "description": "Der Insider-Report"
+            },
+            "6": {
+                "title": "Möchten Sie ein Projekt gemeinsam starten?",
+                "description": "",
+                "copied": "E-Mail Addresse ist kopiert!",
+                "copy": "E-Mail Addresse kopieren"
+            }
+        },
+        "click": "Klicken Sie hier, für mehr Info!"
+    },
+    "Projects": {
+        "title": "Eine kleine Selektion kürzlich entwickelter Projekte",
+        "button": "Live Seite besuchen",
+        "items": {
+            "1": {
+                "title": "MarketMinds Analytics - Trading Analyse Plattform",
+                "description": "Vollständige Analyseplattform für Handel mit Aktien, Kryptowährungen und Devisen.",
+                "img": "/MarketMinds.png",
+                "iconLists": [
+                    "html-logo.png",
+                    "css-icon.png",
+                    "javascript-icon.png",
+                    "python-logo.png",
+                    "bootstrap-icon.png",
+                    "django-logo.png",
+                    "postgres.svg",
+                    "aws-icon.svg",
+                    "stripe-logo.png",
+                    "heroku-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://marketminds-analytics-31d309061593.herokuapp.com/",
+                "github1": "null",
+                "github2": "null",
+                "github3": "Full Source Code",
+                "github1_link": "null",
+                "github2_link": "null",
+                "github3_link": "https://github.com/ARP-25/MarketMinds-Analytics"
+            },
+            "2": {
+                "title": "VendorVerse - Dynamische Multivendor-E-Commerce-Plattform",
+                "description": "VendorVerse ist ein fortschrittliches Multivendor-E-Commerce-System, das nahtlose Kauf- und Verkaufserlebnisse bietet.",
+                "img": "/VendorVerse_Screen.jpg",
+                "iconLists": [
+                    "react-logo.png",
+                    "css-icon.png",
+                    "bootstrap-icon.png",
+                    "python-logo.png",
+                    "django-logo.png",
+                    "stripe-logo.png",
+                    "postgres.svg",
+                    "aws-icon.svg",
+                    "paypal-logo.png",
+                    "railway-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://vendorverse.netlify.app/",
+                "github1": "Frontend",
+                "github2": "Backend",
+                "github3": "null",
+                "github1_link": "https://github.com/ARP-25/VendorVerse_frontend",
+                "github2_link": "https://github.com/ARP-25/VendorVerse_backend",
+                "github3_link": "null"
+            },
+            "3": {
+                "title": "Airbnb - Klon",
+                "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
+                "img": "/airbnb.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/next.svg",
+                    "/tail.svg",
+                    "/ts.svg",
+                    "python-logo.png",
+                    "/django-logo.png",
+                    "postgres.svg",
+                    "/docker-logo.png",
+                    "/nginx.png",
+                    "digitalocean_logo.png",
+                    "/github-logo.png",
+                    "/git-logo.png"
+                ],
+                "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode",
+                "github1": "Frontend",
+                "github2": "Backend",
+                "github3": "null",
+                "github1_link": "https://github.com/ARP-25/Djangobnb_frontend",
+                "github2_link": "https://github.com/ARP-25/Djangobnb_backend",
+                "github3_link": "null"
+            },
+            "4": {
+                "title": "Boutique Ado - E-Commerce Platform",
+                "description": "Ein voll funktionsfähiges E-Commerce-Plattformprojekt mit Django, Stripe und Heroku umfasst die folgenden Features: Benutzerauthentifizierung, Produktverwaltung und einen optimierten Checkout-Prozess. ",
+                "img": "/BoutiqueAdo_Screen.jpg",
+                "iconLists": [
+                    "html-logo.png",
+                    "css-icon.png",
+                    "javascript-icon.png",
+                    "python-logo.png",
+                    "bootstrap-icon.png",
+                    "django-logo.png",
+                    "postgres.svg",
+                    "stripe-logo.png",
+                    "aws-icon.svg",
+                    "heroku-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/",
+                "github1": "null",
+                "github2": "null",
+                "github3": "Full Source Code",
+                "github1_link": "null",
+                "github2_link": "null",
+                "github3_link": "https://github.com/ARP-25/BoutiqueAdo"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Lobende Worte zufriedener Klienten",
+        "items": {
+            "1": {
+                "quote": "Die Zusammenarbeit mit Angelo war von Anfang bis Ende eine fantastische Erfahrung, und ich kann ihn voll und ganz weiterempfehlen. Das moderne Design hat bei unseren Klienten schon für das ein oder andere Kompliment gesorgt. Ich bin froh, den Schritt gemacht zu haben, unsere Online-Präsenz professionell aufwerten zu lassen. Vielen Dank, Angelo!",
+                "name": "Sebastian Roslon",
+                "image": "/sebastian.png"
+            },
+            "2": {
+                "quote": "Als Bauunternehmer war es mir wichtig, eine professionelle und ansprechende Webseite zu haben, die meine Dienstleistungen optimal präsentiert. Angelo hat nicht nur meine Erwartungen übertroffen, sondern es hat auch Spaß gemacht mit ihm zusammenzuarbeiten. Seine Fachkenntnisse und sein Engagement haben zu einem top Endergebnis geführt, mit dem ich äußerst zufrieden bin!",
+                "name": "Zbigniew Filus",
+                "image": "/Zbigniev.png"
+            }
+        }
+    },
+    "workExperience": {
+        "title": "Meine Arbeitserfahrung",
+        "items": {
+            "1": {
+                "title": "Full Stack Softwareentwickler",
+                "desc": "Entwickelte und lieferte Softwareprojekte für verschiedene Klienten. Verwendete moderne Technologien wie React.js, Next.js und Django, um skalierbare und effiziente Webanwendungen zu erstellen, die auf die Bedürfnisse der Klienten zugeschnitten sind.",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg"
+            },
+            "2": {
+                "title": "Full Stack Softwareentwickler Trainee - Code Institute",
+                "desc": "Absolvierte ein beschleunigtes Lernprogramm mit Schwerpunkt auf Full-Stack-Softwareentwicklung. Lieferte von Anfang an mehrere Projekte und sammelte praktische Erfahrungen mit verschiedenen Webtechnologien.",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp2.svg"
+            }
+        }
+    },
+
+    "approach": {
+        "title": "Mein Ansatz",
+        "cards": {
+            "1": {
+                "title": "Anforderungsanalyse & Design",
+                "description": "In dieser Anfangsphase werden wir zusammenarbeiten, um die Ziele, Zielgruppen und wesentlichen Funktionalitäten Ihrer Website genau zu verstehen und zu dokumentieren. Dies umfasst die Erstellung einer detaillierten Spezifikation, das Design der Architektur und die Planung der Benutzeroberfläche sowie der Benutzererfahrung."
+            },
+            "2": {
+                "title": "Entwicklung & Qualitätssicherung",
+                "description": "Nach der Genehmigung des Designs und der Spezifikationen beginne ich mit dem Programmierprozess. Die Entwicklung erfolgt in iterativen Zyklen, die regelmäßige Überprüfungen und Anpassungen erlauben. Jeder Zyklus beinhaltet Tests, um Qualität und Funktionalität sicherzustellen. Während dieser Phase werde ich regelmäßige Updates und Demos bereitstellen, um Sie über den Fortschritt informiert und eingebunden zu halten."
+            },
+            "3": {
+                "title": "Implementierung & Start",
+                "description": "Nach umfassenden Tests und den abschließenden Genehmigungen werden wir mit der Implementierung der Website fortfahren. Diese Phase beinhaltet das Einrichten der Live-Umgebung, die endgültige Datenmigration und die Sicherstellung, dass alle Systeme funktionsfähig sind. Wir werden den Start mit einer Überprüfung abschließen, um sicherzustellen, dass die Website alle Ihre spezifizierten Anforderungen erfüllt und betriebsbereit ist."
+            }
+        }
+    },
+    "footer": {
+        "title": "Sind Sie auf der Suche nach Verstärkung für Ihr Team? Oder möchten sie ein gemeinsames Projekt starten?",
+        "description": "Kontaktieren Sie mich noch heute und lassen Sie uns besprechen, wie ich Ihnen helfen kann, Ihre Ziele zu erreichen.",
+        "button": "Lassen Sie uns in Verbindung treten!"
     }
-  },
-  "workExperience": {
-    "title": "Meine Arbeitserfahrung",
-    "items": {
-      "1": {
-        "title": "Full Stack Softwareentwickler",
-        "desc": "Entwickelte und lieferte Softwareprojekte für verschiedene Kunden. Verwendete moderne Technologien wie React.js, Next.js und Django, um skalierbare und effiziente Webanwendungen zu erstellen, die auf die Bedürfnisse der Kunden zugeschnitten sind.",
-        "className": "md:col-span-2",
-        "thumbnail": "/exp1.svg"
-      },
-      "2": {
-        "title": "Full Stack Softwareentwickler Trainee - Code Institute",
-        "desc": "Absolvierte ein beschleunigtes Lernprogramm mit Schwerpunkt auf Full-Stack-Softwareentwicklung. Lieferte von Anfang an mehrere Projekte und sammelte praktische Erfahrungen mit verschiedenen Webtechnologien.",
-        "className": "md:col-span-2",
-        "thumbnail": "/exp2.svg"
-      }
-    }
-  },
-  "approach": {
-    "title": "Mein Ansatz",
-    "cards": {
-      "1": {
-        "title": "Planung & Strategie",
-        "description": "Wir werden zusammenarbeiten, um die Ziele Ihrer Website, Ihre Zielgruppe und die wichtigsten Funktionen zu definieren. Wir werden Dinge wie Seitenstruktur, Navigation und Inhaltsanforderungen besprechen."
-      },
-      "2": {
-        "title": "Entwicklung & Fortschritts-Update",
-        "description": "Sobald wir uns auf den Plan geeinigt haben, lege ich meine Lofi-Playlist auf und tauche in die Programmierung ein. Von den ersten Skizzen bis zum ausgefeilten Code halte ich Sie auf dem Laufenden."
-      },
-      "3": {
-        "title": "Entwicklung & Einführung",
-        "description": "Hier geschieht die Magie! Basierend auf dem genehmigten Design werde ich alles in funktionalen Code umsetzen und Ihre Website von Grund auf neu erstellen."
-      }
-    }
-  },
-  "footer": {
-    "title": "Bereit, Ihre digitalen Projekte voranzutreiben?",
-    "description": "Kontaktieren Sie mich noch heute und lassen Sie uns besprechen, wie ich Ihnen helfen kann, Ihre Ziele zu erreichen.",
-    "button": "Lassen Sie uns in Verbindung treten!"
-  }
 }
-  

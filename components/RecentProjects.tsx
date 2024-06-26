@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
@@ -28,9 +28,9 @@ const RecentProjects = () => {
     }));
 
     const highlightFirstThreeWords = (text: string) => {
-        const words = text.split(' ');
-        const firstThreeWords = words.slice(0, 3).join(' ');
-        const remainingWords = words.slice(3).join(' ');
+        const words = text.split(" ");
+        const firstThreeWords = words.slice(0, 3).join(" ");
+        const remainingWords = words.slice(3).join(" ");
 
         return (
             <>
@@ -46,8 +46,8 @@ const RecentProjects = () => {
                 <h1 className="text-center text-4xl font-bold">
                     {highlightFirstThreeWords(t("title"))}
                 </h1>
-                <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 ">
-                    {projectsArray.map((item) => (
+                <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-4 p-4">
+                    {projectsArray.map(item => (
                         <ProjectItem key={item.id} item={item} t={t} />
                     ))}
                 </div>
@@ -77,29 +77,36 @@ const ProjectItem = ({ item, t }: { item: any; t: any }) => {
     return (
         <div className="flex flex-col items-center" ref={ref}>
             {/* Pincontainer Container */}
-            <div className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
+            <div className="flex h-[32rem] w-[80vw] items-center justify-center sm:h-[41rem] sm:w-[570px] lg:min-h-[32.5rem]">
                 <a href={item.link} rel="noopener" target="_blank">
                     <PinContainer title={item.link} href={item.link}>
                         {/* Image */}
-                        <div className="relative flex items-center justify-center w-[260px] sm:w-[570px] overflow-hidden h-[20vh] sm:h-[40vh] mb-5 sm:mb-10">
-                            <div className="relative w-full h-full overflow-hidden rounded-2xl" style={{ backgroundColor: "#13162D" }}>
-                                <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
+                        <div className="relative mb-5 flex h-[20vh] w-[260px] items-center justify-center overflow-hidden sm:mb-10 sm:h-[40vh] sm:w-[570px]">
+                            <div
+                                className="relative h-full w-full overflow-hidden rounded-2xl"
+                                style={{ backgroundColor: "#13162D" }}
+                            >
+                                <img
+                                    src="/bg.png"
+                                    alt="bgimg"
+                                    className="h-full w-full object-cover"
+                                />
                             </div>
                             <img
                                 src={item.img}
                                 alt={item.title}
-                                className="z-10 absolute bottom-[11.5%] w-[80%] transform rotate-6 rounded-xl"
+                                className="absolute bottom-[11.5%] z-10 w-[80%] rotate-6 transform rounded-xl"
                             />
                         </div>
 
                         {/* Title */}
-                        <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 w-[260px] sm:w-[570px]">
+                        <h1 className="line-clamp-1 w-[260px] text-base font-bold sm:w-[570px] md:text-xl lg:text-2xl">
                             {item.title}
                         </h1>
 
                         {/* Description */}
                         <p
-                            className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 w-[260px] sm:w-[570px]"
+                            className="line-clamp-2 w-[260px] text-sm font-light sm:w-[570px] lg:text-xl lg:font-normal"
                             style={{
                                 color: "#BEC1DD",
                                 margin: "1vh 0",
@@ -109,12 +116,12 @@ const ProjectItem = ({ item, t }: { item: any; t: any }) => {
                         </p>
 
                         {/* Icon List */}
-                        <div className="flex flex-col sm:flex-row items-center justify-between mt-7 mb-3 w-[260px] sm:w-[570px]">
-                            <div className="ps-[2.8rem] sm:ps-[0] flex items-center justify-center">
+                        <div className="mb-3 mt-7 flex w-[260px] flex-col items-center justify-between sm:w-[570px] sm:flex-row">
+                            <div className="flex items-center justify-center ps-[3.8rem] sm:ps-[0]">
                                 {item.iconLists.map((icon: string, index: number) => (
                                     <div
                                         key={index}
-                                        className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-7 h-7 flex justify-center items-center"
+                                        className="flex h-7 w-7 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-10 lg:w-10"
                                         style={{
                                             transform: `translateX(-${5 * index + 2}px)`,
                                         }}
@@ -124,8 +131,8 @@ const ProjectItem = ({ item, t }: { item: any; t: any }) => {
                                 ))}
                             </div>
 
-                            <div className="flex mt-3 sm:mt-0 justify-center items-center">
-                                <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                            <div className="mt-3 flex items-center justify-center sm:mt-0">
+                                <p className="flex text-sm text-purple md:text-xs lg:text-xl">
                                     {t("button")}
                                 </p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9" />
@@ -143,33 +150,42 @@ const ProjectItem = ({ item, t }: { item: any; t: any }) => {
                 variants={githubVariants}
                 transition={{ duration: 3 }}
             >
-                {item.github1 && item.github1 !== "null" &&
-                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
-                    transition={{ type: "spring", stiffness: 300 }}>
-                        <a href={item.github1_link} rel="noopener" target="_blank" className=" flex">
+                {item.github1 && item.github1 !== "null" && (
+                    <motion.div
+                        className="mt-0 lg:mt-8"
+                        whileHover={{ skew: 10 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                    >
+                        <a href={item.github1_link} rel="noopener" target="_blank" className="flex">
                             <img src="/githublogo.svg" alt="GitHub Logo" />
                             <div className="z-50 ml-2 mr-2">{item.github1}</div>
                         </a>
                     </motion.div>
-                }
-                {item.github2 && item.github2 !== "null" &&
-                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
-                    transition={{ type: "spring", stiffness: 300 }}>
-                        <a href={item.github2_link} rel="noopener" target="_blank" className=" flex">
+                )}
+                {item.github2 && item.github2 !== "null" && (
+                    <motion.div
+                        className="mt-0 lg:mt-8"
+                        whileHover={{ skew: 10 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                    >
+                        <a href={item.github2_link} rel="noopener" target="_blank" className="flex">
                             <img src="/githublogo.svg" alt="GitHub Logo" />
                             <div className="z-50 ml-2 mr-2">{item.github2}</div>
                         </a>
                     </motion.div>
-                }
-                {item.github3 && item.github3 !== "null" &&
-                    <motion.div className="mt-0 lg:mt-6"     whileHover={{ skew: 10 }}
-                    transition={{ type: "spring", stiffness: 300 }}>
-                        <a href={item.github3_link} rel="noopener" target="_blank" className=" flex">
+                )}
+                {item.github3 && item.github3 !== "null" && (
+                    <motion.div
+                        className="mt-0 lg:mt-8"
+                        whileHover={{ skew: 10 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                    >
+                        <a href={item.github3_link} rel="noopener" target="_blank" className="flex">
                             <img src="/githublogo.svg" alt="GitHub Logo" />
                             <div className="z-50 ml-2 mr-2">{item.github3}</div>
                         </a>
                     </motion.div>
-                }
+                )}
             </motion.div>
         </div>
     );

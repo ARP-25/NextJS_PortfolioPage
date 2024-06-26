@@ -17,7 +17,7 @@ const Footer = () => {
             <Boxes />
             <div className="relative z-20 flex flex-col items-center">
                 <h1 className="text-center text-4xl font-bold lg:max-w-[45vw]">
-                    {highlightWords(t("title"), 1, 3)}
+                    {highlightWords(t("title"), 3, 6)}
                 </h1>
                 <p className="my-5 text-center text-white-200 md:mt-10">{t("description")}</p>
                 <a href="mailto:angelo.pucci@outlook.de">

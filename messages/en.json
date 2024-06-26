@@ -1,35 +1,34 @@
-
-  {
-  "navItems": {
-    "1": {
-      "name": "About",
-      "link": "#about"
+{
+    "navItems": {
+        "1": {
+            "name": "About",
+            "link": "#about"
+        },
+        "2": {
+            "name": "Projects",
+            "link": "#projects"
+        },
+        "3": {
+            "name": "Testimonials",
+            "link": "#testimonials"
+        },
+        "4": {
+            "name": "Contact",
+            "link": "#contact"
+        }
     },
-    "2": {
-      "name": "Projects",
-      "link": "#projects"
+    "Hero": {
+        "hero1": "Hi, Im Angelo, aspiring Full-Stack-Developer based in Germany📍.",
+        "hero2": "Custom solutions for entrepreneurs and businesses of all sizes.",
+        "hero3": "I build custom websites and web applications that drive business success.",
+        "hero4": "Show my Work",
+        "hero5": "Download CV"
     },
-    "3": {
-      "name": "Testimonials",
-      "link": "#testimonials"
+    "Languages": {
+        "lang1": "English",
+        "lang2": "German "
     },
-    "4": {
-      "name": "Contact",
-      "link": "#contact"
-    }
-  },
-  "Hero": {
-    "hero1": "Hi, Im Angelo, aspiring Full-Stack-Developer based in Germany📍.",
-    "hero2": "Custom solutions for entrepreneurs and businesses of all sizes.",
-    "hero3": "I build custom websites and web applications.",
-    "hero4": "Show my Work",
-    "hero5": "Download CV"
-  },
-  "Languages": {
-    "lang1": "English",
-    "lang2": "German "
-  },   
-  "Grid": {
+    "Grid": {
         "items": {
             "1": {
                 "title": "I prioritize client collaboration, fostering open communication",
@@ -57,119 +56,172 @@
                 "copied": "Email is copied!",
                 "copy": "Copy my Email Address"
             }
-        }     
-  },
-  "Projects": {
-    "title": "A small selection of recent projects",
-    "button": "Check Live Site",
-    "items": {
-      "1": {
-        "title": "MarketMinds Analytics - Trading Analytics Platform",
-        "description": "A Django-based trading platform offering streamlined subscription management with Stripe integration, direct content delivery via 'Trade Insights,' and essential financial metrics in a user-friendly custom admin panel. ",
-        "img": "/MarketMinds.png",
-        "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://marketminds-analytics-31d309061593.herokuapp.com/",
-        "github1":"null",
-        "github2":"null",
-        "github3":"Full Source Code",
-        "github1_link": "null",
-        "github2_link": "null",
-        "github3_link": "https://github.com/ARP-25/MarketMinds-Analytics"
-      },
-      "2": {
-        "title": "VendorVerse - Dynamic Multivendor E-Commerce Platform",
-        "description": "VendorVerse is an advanced multivendor e-commerce system designed to provide seamless buying and selling experiences.",
-        "img": "/VendorVerse_Screen.jpg",
-        "iconLists": ["react-logo.png",  "css-icon.png", "bootstrap-icon.png", "python-logo.png","django-logo.png",  "stripe-logo.png", "paypal-logo.png", "railway-logo.png", "netlify-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://vendorverse.netlify.app/",
-        "github1":"Frontend",
-        "github2":"Backend",
-        "github3": "null",
-        "github1_link": "https://github.com/ARP-25/VendorVerse_frontend",
-        "github2_link": "https://github.com/ARP-25/VendorVerse_backend",
-        "github3_link": "null"
-      },
-      "3": {
-        "title": "Airbnb - Clone",
-        "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
-        "img": "/airbnb.png",
-        "iconLists": ["/ts.svg", "/tail.svg", "python-logo.png", "/re.svg", "/next.svg", "/django-logo.png", "/docker-logo.png","/nginx.png", "digitalocean_logo.png", "/github-logo.png", "/git-logo.png"],
-        "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode",
-        "github1":"Frontend",
-        "github2":"Backend",
-        "github3": "null",
-        "github1_link": "https://github.com/ARP-25/Djangobnb_frontend",
-        "github2_link": "https://github.com/ARP-25/Djangobnb_backend",
-        "github3_link": "null"
-      },
-      "4": {
-        "title": "Boutique Ado - E-Commerce Platform",
-        "description": "A fully functional e-commerce platform built with Django, Stripe, and Heroku. Features include user authentication, product management, and a streamlined checkout process.",
-        "img": "/BoutiqueAdo_Screen.jpg",
-        "iconLists": ["html-logo.png", "css-icon.png", "javascript-icon.png", "python-logo.png", "bootstrap-icon.png", "django-logo.png", "heroku-logo.png", "stripe-logo.png", "github-logo.png", "git-logo.png"],
-        "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/",
-        "github1":"null",
-        "github2":"null",
-        "github3":"Full Source Code",
-        "github1_link": "null",
-        "github2_link": "null",
-        "github3_link": "https://github.com/ARP-25/BoutiqueAdo"
-      }
+        },
+        "click": "Click for more info!"
+    },
+    "Projects": {
+        "title": "A small selection of recent projects",
+        "button": "Check Live Site",
+        "items": {
+            "1": {
+                "title": "MarketMinds Analytics - Trading Analytics Platform",
+                "description": "A Django-based trading platform offering streamlined subscription management with Stripe integration, direct content delivery via 'Trade Insights,' and essential financial metrics in a user-friendly custom admin panel. ",
+                "img": "/MarketMinds.png",
+                "iconLists": [
+                    "html-logo.png",
+                    "css-icon.png",
+                    "javascript-icon.png",
+                    "python-logo.png",
+                    "bootstrap-icon.png",
+                    "django-logo.png",
+                    "postgres.svg",
+                    "aws-icon.svg",
+                    "heroku-logo.png",
+                    "stripe-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://marketminds-analytics-31d309061593.herokuapp.com/",
+                "github1": "null",
+                "github2": "null",
+                "github3": "Full Source Code",
+                "github1_link": "null",
+                "github2_link": "null",
+                "github3_link": "https://github.com/ARP-25/MarketMinds-Analytics"
+            },
+            "2": {
+                "title": "VendorVerse - Dynamic Multivendor E-Commerce Platform",
+                "description": "VendorVerse is an advanced multivendor e-commerce system designed to provide seamless buying and selling experiences.",
+                "img": "/VendorVerse_Screen.jpg",
+                "iconLists": [
+                    "react-logo.png",
+                    "css-icon.png",
+                    "bootstrap-icon.png",
+                    "python-logo.png",
+                    "postgres.svg",
+                    "django-logo.png",
+                    "stripe-logo.png",
+                    "paypal-logo.png",
+                    "aws-icon.svg",
+                    "railway-logo.png",
+                    "netlify-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://vendorverse.netlify.app/",
+                "github1": "Frontend",
+                "github2": "Backend",
+                "github3": "null",
+                "github1_link": "https://github.com/ARP-25/VendorVerse_frontend",
+                "github2_link": "https://github.com/ARP-25/VendorVerse_backend",
+                "github3_link": "null"
+            },
+            "3": {
+                "title": "Airbnb - Clone",
+                "description": "Developed an Airbnb clone to explore modern technologies. Utilized React and Next.js for the frontend, and Django and Django REST Framework for the backend.",
+                "img": "/airbnb.png",
+                "iconLists": [
+                    "/ts.svg",
+                    "/tail.svg",
+                    "python-logo.png",
+                    "/re.svg",
+                    "/next.svg",
+                    "/django-logo.png",
+                    "postgres.svg",
+                    "/docker-logo.png",
+                    "/nginx.png",
+                    "digitalocean_logo.png",
+                    "/github-logo.png",
+                    "/git-logo.png"
+                ],
+                "link": "https://github.com/ARP-25/Djangobnb_FullSourceCode",
+                "github1": "Frontend",
+                "github2": "Backend",
+                "github3": "null",
+                "github1_link": "https://github.com/ARP-25/Djangobnb_frontend",
+                "github2_link": "https://github.com/ARP-25/Djangobnb_backend",
+                "github3_link": "null"
+            },
+            "4": {
+                "title": "Boutique Ado - E-Commerce Platform",
+                "description": "A fully functional e-commerce platform built with Django, Stripe, and Heroku. Features include user authentication, product management, and a streamlined checkout process.",
+                "img": "/BoutiqueAdo_Screen.jpg",
+                "iconLists": [
+                    "html-logo.png",
+                    "css-icon.png",
+                    "javascript-icon.png",
+                    "python-logo.png",
+                    "bootstrap-icon.png",
+                    "django-logo.png",
+                    "postgres.svg",
+                    "aws-icon.svg",
+                    "heroku-logo.png",
+                    "stripe-logo.png",
+                    "github-logo.png",
+                    "git-logo.png"
+                ],
+                "link": "https://arp25-boutique-ado-6c567a61093f.herokuapp.com/",
+                "github1": "null",
+                "github2": "null",
+                "github3": "Full Source Code",
+                "github1_link": "null",
+                "github2_link": "null",
+                "github3_link": "https://github.com/ARP-25/BoutiqueAdo"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Kind words from satisfied Clients",
+        "items": {
+            "1": {
+                "quote": "Working with Angelo was a fantastic experience from start to finish, and I can fully recommend him. The modern design has already garnered a few compliments from our clients. I'm glad I took the step to professionally enhance our online presence. Thank you, Angelo!",
+                "name": "Sebastian Roslon",
+                "image": "/sebastian.png"
+            },
+            "2": {
+                "quote": "As a construction contractor, it was important to me to have a professional and appealing website that optimally showcases my services. Angelo not only exceeded my expectations but also made it enjoyable to work with him. His expertise and dedication led to a top-notch end result with which I am extremely satisfied!",
+                "name": "Zbigniev Filus",
+                "image": "/Zbigniev.png"
+            }
+        }
+    },
+    "workExperience": {
+        "title": "My work experience",
+        "items": {
+            "1": {
+                "title": "Full Stack Software Developer",
+                "desc": "Developed and delivered software projects for various clients. Utilized modern technologies like React.js, Next.js, and Django to create scalable and efficient web applications tailored to client needs.",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg"
+            },
+            "2": {
+                "title": "Full Stack Software Developer Trainee - Code Institute",
+                "desc": "Completed an accelerated learning program focused on full stack software development. Delivered multiple projects from day one, gaining hands-on experience with various web technologies.",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp2.svg"
+            }
+        }
+    },
+    "approach": {
+        "title": "My approach",
+        "cards": {
+            "1": {
+                "title": "Requirements Analysis & Design",
+                "description": "In this initial phase, we'll work together to thoroughly understand and document the objectives, target audience, and essential functionalities of your website. This will include developing a detailed specification, designing the architecture, and planning the user interface and user experience."
+            },
+            "2": {
+                "title": "Development & Quality Assurance",
+                "description": "Following the approved design and specifications, I will commence the coding process. Development will be conducted in iterative cycles, allowing for regular review and adjustment. Each iteration will include testing to ensure quality and functionality. Throughout this stage, I will provide regular updates and demos to keep you engaged and informed of the progress."
+            },
+            "3": {
+                "title": "Development & Launch",
+                "description": "After thorough testing and final approvals, we will move to deploying the website. This phase includes setting up the live environment, final migration of data, and ensuring all systems are operational. We'll finalize the launch with a review to ensure the website meets all your specified requirements and is ready to go live."
+            }
+        }
+    },
+    "footer": {
+        "title": "Are you looking to strengthen your team? Or would you like to start a project?",
+        "description": "Reach out to me today and let's discuss how I can help you achieve your goals.",
+        "button": "Let's get in touch!"
     }
-  },
-  "Testimonials": {
-    "title": "Kind words from satisfied Clients",
-    "items": {
-      "1": {
-        "quote": "Working with Angelo was a fantastic experience from start to finish, and I can fully recommend him. The modern design has already garnered a few compliments from our clients. I'm glad I took the step to professionally enhance our online presence. Thank you, Angelo!",
-        "name": "Sebastian Roslon",
-        "image": "/sebastian.png"
-      },
-      "2": {
-        "quote": "As a construction contractor, it was important to me to have a professional and appealing website that optimally showcases my services. Angelo not only exceeded my expectations but also made it enjoyable to work with him. His expertise and dedication led to a top-notch end result with which I am extremely satisfied!",
-        "name": "Zbigniev Filus",
-        "image": "/Zbigniev.png"
-      }
-    }
-  },
-  "workExperience": {
-    "title": "My work experience",
-    "items": {
-      "1": {
-        "title": "Full Stack Software Developer",
-        "desc": "Developed and delivered software projects for various clients. Utilized modern technologies like React.js, Next.js, and Django to create scalable and efficient web applications tailored to client needs.",
-        "className": "md:col-span-2",
-        "thumbnail": "/exp1.svg"
-      },
-      "2": {
-        "title": "Full Stack Software Developer Trainee - Code Institute",
-        "desc": "Completed an accelerated learning program focused on full stack software development. Delivered multiple projects from day one, gaining hands-on experience with various web technologies.",
-        "className": "md:col-span-2",
-        "thumbnail": "/exp2.svg"
-      }
-    }
-  },
-  "approach": {
-    "title": "My approach",
-    "cards": {
-      "1": {
-        "title": "Planning & Strategy",
-        "description": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
-      },
-      "2": {
-        "title": "Development & Progress Update",
-        "description": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
-      },
-      "3": {
-        "title": "Development & Launch",
-        "description": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
-      }
-    }
-  } ,
-  "footer": {
-    "title": "Ready to take your digital projects to the next level?",
-    "description": "Reach out to me today and let's discuss how I can help you achieve your goals.",
-    "button": "Let's get in touch!"
-  }
 }
-  
