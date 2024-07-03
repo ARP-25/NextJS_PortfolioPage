@@ -63,7 +63,7 @@
         "title": "Eine kleine Selektion kürzlich entwickelter Projekte",
         "button": "Live Seite besuchen",
         "items": {
-            "1": {
+            "3": {
                 "title": "MarketMinds Analytics - Trading Analyse Plattform",
                 "description": "Vollständige Analyseplattform für Handel mit Aktien, Kryptowährungen und Devisen.",
                 "img": "/MarketMinds.png",
@@ -115,9 +115,9 @@
                 "github2_link": "https://github.com/ARP-25/VendorVerse_backend",
                 "github3_link": "null"
             },
-            "3": {
-                "title": "Airbnb - Klon",
-                "description": "Erprobung moderner Technologien. Verwendung von React und Next.js für das Frontend sowie Django und Django REST für das Backend.",
+            "1": {
+                "title": "Djangobnb",
+                "description": "Voll funktionsfähige Airbnb-ähnliche Anwendung entwickelt, die einen modernen Tech-Stack verwendet. Dazu gehören Next.js für das Frontend und Django für das Backend. Das Projekt ist mit Docker containerisiert, wird mit Nginx bereitgestellt und auf DigitalOcean deployt.",
                 "img": "/airbnb.png",
                 "iconLists": [
                     "/re.svg",
