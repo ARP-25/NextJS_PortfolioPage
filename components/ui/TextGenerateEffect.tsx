@@ -13,7 +13,7 @@ export const TextGenerateEffect = ({ words, className }: { words: string; classN
                 opacity: 1,
             },
             {
-                duration: 2,
+                duration: 1,
                 delay: stagger(0.2),
             }
         );
@@ -24,7 +24,10 @@ export const TextGenerateEffect = ({ words, className }: { words: string; classN
             <motion.div ref={scope}>
                 {wordsArray.map((word, idx) => {
                     return (
-                        <motion.span key={word + idx} className={`${idx >= 3 && idx <= 5 ? "text-purple" : "dark:text-white text-black"}  opacity-0`}>
+                        <motion.span
+                            key={word + idx}
+                            className={`${idx >= 3 && idx <= 5 ? "text-purple" : "text-black dark:text-white"} opacity-0`}
+                        >
                             {word}{" "}
                         </motion.span>
                     );
@@ -36,7 +39,9 @@ export const TextGenerateEffect = ({ words, className }: { words: string; classN
     return (
         <div className={cn("font-bold", className)}>
             <div className="mt-4">
-                <div className=" dark:text-white text-black leading-snug tracking-wide">{renderWords()}</div>
+                <div className="leading-snug tracking-wide text-black dark:text-white">
+                    {renderWords()}
+                </div>
             </div>
         </div>
     );
