@@ -28,13 +28,13 @@ export default function Home() {
                 <LanguageDropdownMenu />
                 <FloatingNav navItems={navItems} />
                 <Hero />
-                {/* <Grid />
+                <Grid />
                 <RecentProjects />
                 <Clients />
                 <Experience />
                 <Approach />
                 <Footer />
-                <TechstackModal /> */}
+                <TechstackModal />
             </div>
         </main>
     );
