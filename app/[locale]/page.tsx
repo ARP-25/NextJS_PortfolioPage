@@ -27,8 +27,8 @@ export default function Home() {
                 <Avatar />
                 <LanguageDropdownMenu />
                 <FloatingNav navItems={navItems} />
-                {/* <Hero />
-                <Grid />
+                <Hero />
+                {/* <Grid />
                 <RecentProjects />
                 <Clients />
                 <Experience />
