@@ -33,7 +33,7 @@ export default function Home() {
                 <Clients />
                 <Experience />
                 <Approach />
-                {/* <Footer /> */}
+                <Footer />
                 <TechstackModal />
             </div>
         </main>

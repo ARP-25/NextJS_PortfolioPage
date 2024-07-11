@@ -13,8 +13,13 @@ const Footer = () => {
 
     return (
         <footer className="relative w-full overflow-hidden bg-[#000319] pb-20 pt-20" id="contact">
-            <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-[#000319] [mask-image:radial-gradient(transparent,white)]" />
-            <Boxes />
+            {/* Background Grid */}
+            <div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.03]">
+                {/* Radial gradient for the container to give a faded look */}
+                <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
+            </div>
+            {/* <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-[#000319] [mask-image:radial-gradient(transparent,white)]" />
+            <Boxes /> */}
             <div className="relative z-20 flex flex-col items-center">
                 <h1 className="text-center text-4xl font-bold lg:max-w-[45vw]">
                     {highlightWords(t("title"), 3, 6)}
