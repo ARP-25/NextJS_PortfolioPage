@@ -30,11 +30,11 @@ export default function Home() {
                 <Hero />
                 <Grid />
                 <RecentProjects />
-                {/* <Clients />
+                <Clients />
                 <Experience />
-                <Approach /> */}
+                <Approach />
                 {/* <Footer /> */}
-                {/* <TechstackModal /> */}
+                <TechstackModal />
             </div>
         </main>
     );
