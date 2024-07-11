@@ -27,14 +27,14 @@ export default function Home() {
                 <Avatar />
                 <LanguageDropdownMenu />
                 <FloatingNav navItems={navItems} />
-                <Hero />
+                {/* <Hero />
                 <Grid />
                 <RecentProjects />
                 <Clients />
                 <Experience />
                 <Approach />
                 <Footer />
-                <TechstackModal />
+                <TechstackModal /> */}
             </div>
         </main>
     );
